@@ -42,6 +42,7 @@ class SignIn extends Component {
 
         }catch (e) {
             console.error(e);
+            alert(e.message)
 
         }
     }
